@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GeekCourse</title>
 
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" >
+    <link rel="stylesheet" href="{{ secure_asset('css/bootstrap.min.css') }}" >
 
     @stack('head')
 </head>
@@ -24,7 +24,7 @@
 
 @include('layouts.footer')
 
-<script src={{ asset('js/jquery.min.js') }}></script>
+<script src={{ secure_asset('js/jquery.min.js') }}></script>
 @stack('end')
 
 </body>

@@ -9,12 +9,12 @@
 </div>
 
 @push('head')
-    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href={{ asset('css/fontawesome-stars.css') }}>
+    <link rel="stylesheet" href="{{ secure_asset('css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href={{ secure_asset('css/fontawesome-stars.css') }}>
 @endpush
 
 @push('end')
-    <script src={{ asset('js/jquery.barrating.min.js') }}></script>
+    <script src={{ secure_asset('js/jquery.barrating.min.js') }}></script>
 
     <script type="text/javascript">
         $(function() {
