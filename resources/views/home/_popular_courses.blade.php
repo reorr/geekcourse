@@ -1,6 +1,6 @@
 @inject('repository', "App\Repositories\CourseRepositoryInterface")
 
-<h2>Popular Course</h2>
+<h2>Kelas Populer</h2>
 
 <div class="row">
     @foreach($repository->popular() as $item)
